@@ -1,6 +1,6 @@
-# battle-simulator-for-BH3-activity
+# Battle-Simulator-for-BH3-activity
 
-A simple program. Welcome to debug and share your opinions
+A simple program. Welcome to debug and share your opinions.
 
 ## Instructions
 
