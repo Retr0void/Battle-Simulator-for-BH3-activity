@@ -75,7 +75,7 @@ theresa_win = 0
 raven_win = 0
 
 # simulate
-# @epoch = 10000
+# @epoch = 100000
 for j in range(100000):
     # init
     raven = Raven()
