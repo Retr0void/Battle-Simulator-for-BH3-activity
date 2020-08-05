@@ -90,7 +90,10 @@ for j in range(100000):
             theresa_win += 1
             break
         elif theresa.rival_def_decrease:
-            raven.defence -= 5
+            if raven.defence < 5:
+                raven.defence = 0
+            else:
+                raven.defence -= 5
             theresa.rival_def = raven.defence
         raven_dmg = raven.attack()
         theresa.hp -= raven_dmg
